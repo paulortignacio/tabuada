@@ -24,7 +24,7 @@ while True:
         i += 1
     saida = input("Deseja continuar? (S/N)").upper()
     if saida == "N":
-        print("Encerrando o programa...")
+        print("Encerrando o programa... ")
         time.sleep(1)
         limpar()
         break
